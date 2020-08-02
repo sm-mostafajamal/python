@@ -1,0 +1,12 @@
+formatter = "{} {} {} "
+#passing arguments into formatter variable
+print(f"{formatter}".format(1,2,3,4))
+print(formatter.format("one","two","three","four"))
+print(formatter.format(True,False,False,True))
+print(formatter.format(formatter,formatter,formatter,formatter,formatter))
+print(formatter.format(
+    "Try your",
+    "own text here",
+    "Maybe a poem",
+    "or a song about fear"
+    ))
